@@ -14,7 +14,6 @@ body {
    width: 85%;
 }
 .header {
-    width: 100%;
     border-radius: 50px;
     display: flex;
     background: rgb(11, 1, 1);
@@ -23,6 +22,7 @@ body {
 .header:hover {
     opacity: 0.8;
 }
+
 
 
 
@@ -56,10 +56,9 @@ p {
     font-size: 20px;
     font-weight: 600;
     transition: 0.5s;
-
 }
 .btn a:hover {
-    background-color: rgb(207, 165, 165);
+    background-color: #fff;
     color: #000;
 }
 
@@ -86,6 +85,7 @@ p {
 .sec-2 {
     margin: 150px 0;
 }
+
 .middle {
     display: flex;
 }
@@ -95,7 +95,7 @@ p {
 
 .middle .m1 {
     width: 25%;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
     height: auto;
 }
 .m1 .box {
@@ -112,7 +112,6 @@ p {
     display: block;
     margin: auto;
 }
-
 .box button a {
     text-decoration: none;
     color: #000;
@@ -138,44 +137,25 @@ p {
     border-radius: 15px;
     margin-bottom: 20px;
 }
-
 .items .banner {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
-.details {
-    margin: 20px;
+.items .details {
+    text-align: center;
+    margin-bottom: 60px;
 }
-.details button {
-    background: #fff;
-    padding: 5px 15px;
-    border: 2px solid #999;
-    border-radius: 5px;
-}
-.details button a {
-    text-decoration: none;
-    color: #000;
-    font-size: 17px;
-    font-weight: 700;
+
+.banner h3 {
+    margin: 0 20px;
 }
 .details h3 {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
 }
 
-.details .icons {
-    display: flex;
-}
-.details .icons img {
-    margin-right: 5px;
-}
-.details .icons span {
-    margin-right: 20px;
-    color: #777;
-}
-.sec-2 .a {
-    text-align: center;
-    display: none;
-}
 
 
 
@@ -203,11 +183,12 @@ footer hr {
 }
 .info a {
     text-decoration: none;
-    margin: 10px;
+    margin:10px;
     color: #999;
     font-size: 16px;
     font-weight: 500;
 }
+
 .logo {
     margin-top: 50px;
 }
